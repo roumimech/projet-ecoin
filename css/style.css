@@ -35,19 +35,19 @@ ul{
 }
 h1{
 	font-weight: 700;
-	color: #ffffff;
+	color: #1e1e1e;
 }
 h2{
 	font-weight: 600;
-	color: #ffffff;
+	color: #4e4e4e;
 }
 h3,h4,h5,h6{
 	font-weight: 700;
-	color: #ffffff;
+	color: #1e1e1e;
 }
 p{
 	font-size: 18px;
-	color: #ffffff;
+	color: #1e1e1e;
 }
 .container{
 	width: 100%;
@@ -65,13 +65,24 @@ p{
 .align-items-center{
 	align-items: center;
 }
-
-
+div#menu div {
+    width: 100%;
+}
+.logo {
+    margin-top: 7px;
+}
+.auto {
+    margin: auto 185px;
+    box-shadow: 0 1px 5px rgb(0 0 0 / 35%);
+    margin-top: 30px;
+}
+.home-text h1 {
+    color: #0fcb6b;
+}
 .section-title{
 	width: 100%;
-	padding: 0 15px;
+	padding: 0;
 	text-align: center;
-	margin-bottom: 65px;
 }
 .section-title h2{
 	font-size: 35px;
@@ -87,20 +98,20 @@ p{
 	text-transform: capitalize;
 	font-weight: 600;
 	transition: 0.9s ease;
-	font-size:18px ;
+	font-size:18px;
 	cursor: pointer;
 	font-family: inherit;
-	color: #f1b963;
+	color: #0fcd96;
 	line-height: 1.8;
 	user-select: none;
 	border: none;
 }
 .btn-default{
-	border: 2px solid #f1b963;
+	border: 2px solid #0fcd96;
 }
 .btn-default:hover{
 	color: #ffffff;
-	background-color: #f1b963;
+	background-color: #0fcd96;
 }
 .go-top {
     position: fixed;
@@ -136,17 +147,16 @@ p{
 	z-index: 99;
 	width: 100%;
 	display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    padding:8px;
+	align-items: center;
+	justify-content: flex-end;
+	background-color: #fff;
+	padding:8px;
+	box-shadow: 0 2px 8px rgb(0 0 0 / 35%);
 }
 .logo img {
 	width: 20%;
 cursor: pointer;
     z-index: 50;
-
-    
-    
 }
 
 .header .menu-item ul{
@@ -165,13 +175,14 @@ cursor: pointer;
 .header .menu-item ul li a{
 	justify-content: center;
 	align-items: center;
-    font-size: 20px;
-    color:#fff;
+	font-size: 20px;
+	color: #181818;
+	font-weight: bolder;
 }
 
 .header .menu-item ul li a.active,
 .header .menu-item ul li a:hover{
-    color:#ff0;
+    color: #0fcb6b;
 }
 
 
@@ -181,6 +192,7 @@ cursor: pointer;
 	position: relative;
 	overflow: hidden;
 	padding: 100px 0;
+	top: 120px;
 }
  .home-section::before{
 	content: '';
@@ -211,7 +223,7 @@ cursor: pointer;
 .home-text{
 	padding: 0 15px;
 	max-width: 700px;
-	width:100% ;
+	width:100%;
 	margin: auto;
 	text-align: center;
 }
@@ -229,9 +241,8 @@ cursor: pointer;
 	margin: 0 0 50px;
 }
 .container .about-section {
-	background-color: #1a2639;
-	padding: 80px 0;
-  
+	background-color: #fff;
+	padding: 30px 0;
 }
 .about-text,
 .about-image{
@@ -265,13 +276,12 @@ cursor: pointer;
 
 /*--------------------------*/
 .menu-section{
-	background-color: #1a2639;
+	background-color: #fff;
 	padding-bottom: 60px;
-	padding: 80px 0;
+	padding: 40px 0;
 }
 .menu-section .section-title{
 	margin-bottom: 40px;
-
 }
 .section-menu {
     justify-content: center;
@@ -364,7 +374,7 @@ nav.menu ul li a {
     
     background-size: cover;
 }
-.entrée {
+.entrÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©e {
     background: url(../image/salade.jpg) 100%;
     
     background-size: cover;
@@ -402,7 +412,7 @@ nav.menu ul li a {
 	left: 15px;
 	right: 15px;
 	bottom: 0;
-	border-bottom: 2px dashed #1a2639;
+	border-bottom: 2px dashed #fff;
 }
 .menu-item:nth-last-of-type(2)::after, 
 .menu-item:nth-last-of-type(1)::after {
@@ -431,8 +441,7 @@ font-family: 'EB Garamond', serif;
 	
 }
 .menu-item:hover .menu-item-title h1{
-	color: #f1b963;
-
+	color: #0fcd96;
 }
 
 .menu-item img{
@@ -443,7 +452,7 @@ font-family: 'EB Garamond', serif;
 .menu-item-price{
 	font-size: 16px;
 	font-weight: 500;
-	color: #f1b963;
+	color: #0fcd96;
 	transition: color  0.3s ease;
 }
 .menu-item:hover .menu-item-price{
@@ -455,14 +464,14 @@ font-family: 'EB Garamond', serif;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    background-color: #1a2639;
+    background-color: #fff;
 }
 
   .box-chef{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding:36px 0;
+    padding: 0;
 }
 
  .box-chef .box{
@@ -521,7 +530,7 @@ font-family: 'EB Garamond', serif;
 
 
 .container .testimonials-section{
-	background-color: #1a2639;
+	background-color: #fff;
     padding: 80px 0;
 
 	
@@ -531,7 +540,7 @@ font-family: 'EB Garamond', serif;
 .testi-item{
 	width:600px;
 	margin: 0 15px 30px;
-	border: 2px solid #1a2639;
+	border: 2px solid #fff;
 	padding: 30px;
 	border-radius: 8px;
 	box-shadow: 0 0 15px rgba(0,0,0,0.35);;
@@ -556,7 +565,7 @@ font-family: 'EB Garamond', serif;
 .testi-author img{
 	max-width: 60px;
 	border-radius: 50%;
-	border: 2px solid #1a2639;
+	border: 2px solid #fff;
 	box-shadow: var(--shadow);
 	transition: border-color 0.8s ease;
 }
@@ -575,7 +584,7 @@ font-family: 'EB Garamond', serif;
 
 .container .section-order{
     min-height: 100%;
-    background:#1a2639;
+    background:#fff;
     padding-bottom: 32px;
 }
 
@@ -630,7 +639,7 @@ font-family: 'EB Garamond', serif;
 
 .container .footer{
 	padding: 5px 0;
-    background:#1a2639;
+    background:#fff;
 }
 
 .box1{
@@ -649,7 +658,7 @@ font-family: 'EB Garamond', serif;
 
 .box1 p{
     font-size: 30px;
-    color:#eee;
+    color: #1e1e1e;
     padding:16px 0;
 }
 
@@ -662,8 +671,7 @@ font-family: 'EB Garamond', serif;
     font-size: 30px;
     display: block;
     padding:8px 0;
-    color:#eee;
-
+    color: #1e1e1e;
 }
 
 .box1 a:hover{
@@ -674,7 +682,7 @@ font-family: 'EB Garamond', serif;
     font-size: 32px;
     text-align: center;
     padding:25px 12px;
-    color:#fff;
+    color: #1e1e1e;
     border-top: 2px solid #132743;
 }
 
