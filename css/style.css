@@ -200,7 +200,7 @@ cursor: pointer;
 	top: 0;
 	height: 100%;
 	width: 100%;
-	background-image: url(image/home.jpg);
+	background-image: url(../image/home.jpg);
 	background-attachment: fixed;
 	background-size: cover;
 	background-position: center;
@@ -347,7 +347,7 @@ nav.menu ul li a {
 }
 
 .pizza {
-    background: url(image/pizza1.jpg) 100%;
+    background: url(../image/pizza1.jpg) 100%;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -355,32 +355,32 @@ nav.menu ul li a {
 
 
 .burger {
-    background: url(image/burger1.jpg) 100%;
+    background: url(../image/burger1.jpg) 100%;
     
     background-size: cover;
 }
 .traditionnel {
-    background: url(image/traditionnel.jpg) 100%;
+    background: url(../image/traditionnel.jpg) 100%;
     
     background-size: cover;
 }
 .entrée {
-    background: url(image/salade.jpg) 100%;
+    background: url(../image/salade.jpg) 100%;
     
     background-size: cover;
 }
 .boisson {
-    background: url(image/boi.jpg) 100%;
+    background: url(../image/boi.jpg) 100%;
     
     background-size: cover;
 }
 .dessert {
-    background: url(image/dessert.jpg) 100%;
+    background: url(../image/dessert.jpg) 100%;
   
     background-size: cover;
 }
 .plat {
-    background: url(image/plat.jpg) 100%;
+    background: url(../image/plat.jpg) 100%;
   
     background-size: cover;
 }
